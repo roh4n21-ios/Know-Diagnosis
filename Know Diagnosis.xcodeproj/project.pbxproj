@@ -1,0 +1,541 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E2241DBE23535FF8008A91A3 /* SwipeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2241DBD23535FF8008A91A3 /* SwipeTableViewController.swift */; };
+		E22D77032338CA8A00357F4C /* TestsData.swift in Sources */ = {isa = PBXBuildFile; fileRef = E22D77022338CA8A00357F4C /* TestsData.swift */; };
+		E2477191233E07FC0024645F /* CholestrolDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2477190233E07FC0024645F /* CholestrolDataModel.swift */; };
+		E2477193233E089E0024645F /* Cholestrol.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2477192233E089E0024645F /* Cholestrol.swift */; };
+		E2477195233E0FBD0024645F /* FeverDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2477194233E0FBD0024645F /* FeverDataModel.swift */; };
+		E2477197233E103B0024645F /* Fever.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2477196233E103B0024645F /* Fever.swift */; };
+		E25A7B842340B546006548B6 /* BmiDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E25A7B832340B546006548B6 /* BmiDataModel.swift */; };
+		E25A7B862340B55C006548B6 /* BMI.swift in Sources */ = {isa = PBXBuildFile; fileRef = E25A7B852340B55C006548B6 /* BMI.swift */; };
+		E25C656B2354E42D0098762C /* HeartRate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E25C656A2354E42D0098762C /* HeartRate.swift */; };
+		E25C656D2354E7850098762C /* HeartRateDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E25C656C2354E7850098762C /* HeartRateDataModel.swift */; };
+		E27AA65F23362C8F00180408 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E27AA65E23362C8F00180408 /* ViewController.swift */; };
+		E27AA661233632A700180408 /* BloodPressure.swift in Sources */ = {isa = PBXBuildFile; fileRef = E27AA660233632A700180408 /* BloodPressure.swift */; };
+		E27AA6652336546600180408 /* BloodPressureModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E27AA6642336546600180408 /* BloodPressureModel.swift */; };
+		E2804709233B720B00DFFEFC /* DiabetesDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2804708233B720B00DFFEFC /* DiabetesDataModel.swift */; };
+		E280470B233B746B00DFFEFC /* Diabetes.swift in Sources */ = {isa = PBXBuildFile; fileRef = E280470A233B746B00DFFEFC /* Diabetes.swift */; };
+		E2AA38BB233267AD00CADF6E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2AA38BA233267AD00CADF6E /* AppDelegate.swift */; };
+		E2AA38C0233267AD00CADF6E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2AA38BE233267AD00CADF6E /* Main.storyboard */; };
+		E2AA38C2233267AF00CADF6E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E2AA38C1233267AF00CADF6E /* Assets.xcassets */; };
+		E2AA38C5233267AF00CADF6E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2AA38C3233267AF00CADF6E /* LaunchScreen.storyboard */; };
+		E2C7C3B9233A1BC5009E4CBD /* CustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C7C3B7233A1BC5009E4CBD /* CustomCell.swift */; };
+		E2C7C3BA233A1BC5009E4CBD /* DisplayCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E2C7C3B8233A1BC5009E4CBD /* DisplayCell.xib */; };
+		E2C7CDCE234DD84500763840 /* DateClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C7CDCD234DD84500763840 /* DateClass.swift */; };
+		E2CFBF012351D540004EF908 /* FunctionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2CFBF002351D540004EF908 /* FunctionController.swift */; };
+		E2D33B75233B5A42008C67D9 /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2D33B74233B5A42008C67D9 /* Category.swift */; };
+		E2DD7FD42338AF2100D577E6 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2DD7FD32338AF2100D577E6 /* Result.swift */; };
+		E2DD7FD62338BD0200D577E6 /* HealthDataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2DD7FD52338BD0200D577E6 /* HealthDataViewController.swift */; };
+		F8BA7AD72A18B69283028736 /* Pods_Know_Diagnosis.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42324868C8AFC0C72F97D54B /* Pods_Know_Diagnosis.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1BC3294D7C634039E306C626 /* Pods-Know Diagnosis.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Know Diagnosis.release.xcconfig"; path = "Target Support Files/Pods-Know Diagnosis/Pods-Know Diagnosis.release.xcconfig"; sourceTree = "<group>"; };
+		2FB236963FAE2A8DF012F590 /* Pods-Know Diagnosis.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Know Diagnosis.debug.xcconfig"; path = "Target Support Files/Pods-Know Diagnosis/Pods-Know Diagnosis.debug.xcconfig"; sourceTree = "<group>"; };
+		42324868C8AFC0C72F97D54B /* Pods_Know_Diagnosis.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Know_Diagnosis.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E2241DBD23535FF8008A91A3 /* SwipeTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwipeTableViewController.swift; sourceTree = "<group>"; };
+		E22D77022338CA8A00357F4C /* TestsData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestsData.swift; sourceTree = "<group>"; };
+		E2477190233E07FC0024645F /* CholestrolDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CholestrolDataModel.swift; sourceTree = "<group>"; };
+		E2477192233E089E0024645F /* Cholestrol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cholestrol.swift; sourceTree = "<group>"; };
+		E2477194233E0FBD0024645F /* FeverDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeverDataModel.swift; sourceTree = "<group>"; };
+		E2477196233E103B0024645F /* Fever.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fever.swift; sourceTree = "<group>"; };
+		E25A7B832340B546006548B6 /* BmiDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BmiDataModel.swift; sourceTree = "<group>"; };
+		E25A7B852340B55C006548B6 /* BMI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BMI.swift; sourceTree = "<group>"; };
+		E25C656A2354E42D0098762C /* HeartRate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeartRate.swift; sourceTree = "<group>"; };
+		E25C656C2354E7850098762C /* HeartRateDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeartRateDataModel.swift; sourceTree = "<group>"; };
+		E27AA65E23362C8F00180408 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E27AA660233632A700180408 /* BloodPressure.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BloodPressure.swift; sourceTree = "<group>"; };
+		E27AA6642336546600180408 /* BloodPressureModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BloodPressureModel.swift; sourceTree = "<group>"; };
+		E2804708233B720B00DFFEFC /* DiabetesDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiabetesDataModel.swift; sourceTree = "<group>"; };
+		E280470A233B746B00DFFEFC /* Diabetes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Diabetes.swift; sourceTree = "<group>"; };
+		E2AA38B7233267AD00CADF6E /* knowDiagnosis.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = knowDiagnosis.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E2AA38BA233267AD00CADF6E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E2AA38BF233267AD00CADF6E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E2AA38C1233267AF00CADF6E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E2AA38C4233267AF00CADF6E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E2AA38C6233267AF00CADF6E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		E2C7C3B7233A1BC5009E4CBD /* CustomCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCell.swift; sourceTree = "<group>"; };
+		E2C7C3B8233A1BC5009E4CBD /* DisplayCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DisplayCell.xib; sourceTree = "<group>"; };
+		E2C7CDCD234DD84500763840 /* DateClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateClass.swift; sourceTree = "<group>"; };
+		E2CFBF002351D540004EF908 /* FunctionController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FunctionController.swift; sourceTree = "<group>"; };
+		E2D33B74233B5A42008C67D9 /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
+		E2DD7FD32338AF2100D577E6 /* Result.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Result.swift; sourceTree = "<group>"; };
+		E2DD7FD52338BD0200D577E6 /* HealthDataViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthDataViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E2AA38B4233267AD00CADF6E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8BA7AD72A18B69283028736 /* Pods_Know_Diagnosis.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		75D908296C2914A48888AB30 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2FB236963FAE2A8DF012F590 /* Pods-Know Diagnosis.debug.xcconfig */,
+				1BC3294D7C634039E306C626 /* Pods-Know Diagnosis.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		A6316BF5AA6A9787D63DF0AE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				42324868C8AFC0C72F97D54B /* Pods_Know_Diagnosis.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E27AA662233633F300180408 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				E27AA65E23362C8F00180408 /* ViewController.swift */,
+				E27AA660233632A700180408 /* BloodPressure.swift */,
+				E280470A233B746B00DFFEFC /* Diabetes.swift */,
+				E2477192233E089E0024645F /* Cholestrol.swift */,
+				E2477196233E103B0024645F /* Fever.swift */,
+				E25A7B852340B55C006548B6 /* BMI.swift */,
+				E25C656A2354E42D0098762C /* HeartRate.swift */,
+				E2DD7FD32338AF2100D577E6 /* Result.swift */,
+				E2DD7FD52338BD0200D577E6 /* HealthDataViewController.swift */,
+				E22D77022338CA8A00357F4C /* TestsData.swift */,
+				E2CFBF002351D540004EF908 /* FunctionController.swift */,
+				E2241DBD23535FF8008A91A3 /* SwipeTableViewController.swift */,
+				E2AA38BA233267AD00CADF6E /* AppDelegate.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		E27AA6632336340000180408 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E2AA38BE233267AD00CADF6E /* Main.storyboard */,
+				E2AA38C3233267AF00CADF6E /* LaunchScreen.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		E27AA6662336548300180408 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E2D33B74233B5A42008C67D9 /* Category.swift */,
+				E27AA6642336546600180408 /* BloodPressureModel.swift */,
+				E2804708233B720B00DFFEFC /* DiabetesDataModel.swift */,
+				E2477190233E07FC0024645F /* CholestrolDataModel.swift */,
+				E2477194233E0FBD0024645F /* FeverDataModel.swift */,
+				E25A7B832340B546006548B6 /* BmiDataModel.swift */,
+				E25C656C2354E7850098762C /* HeartRateDataModel.swift */,
+				E2C7CDCD234DD84500763840 /* DateClass.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		E27AA667233654AF00180408 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E2AA38C1233267AF00CADF6E /* Assets.xcassets */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E2AA38AE233267AD00CADF6E = {
+			isa = PBXGroup;
+			children = (
+				E2AA38B9233267AD00CADF6E /* Know Diagnosis */,
+				E2AA38C6233267AF00CADF6E /* Info.plist */,
+				E2AA38B8233267AD00CADF6E /* Products */,
+				75D908296C2914A48888AB30 /* Pods */,
+				A6316BF5AA6A9787D63DF0AE /* Frameworks */,
+			);
+			sourceTree = "<group>";
+			usesTabs = 0;
+			wrapsLines = 1;
+		};
+		E2AA38B8233267AD00CADF6E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E2AA38B7233267AD00CADF6E /* knowDiagnosis.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E2AA38B9233267AD00CADF6E /* Know Diagnosis */ = {
+			isa = PBXGroup;
+			children = (
+				E27AA6662336548300180408 /* Model */,
+				E27AA6632336340000180408 /* View */,
+				E27AA662233633F300180408 /* Controller */,
+				E2C7C3BB233A1BDB009E4CBD /* Custom Cell */,
+				E27AA667233654AF00180408 /* Supporting Files */,
+			);
+			path = "Know Diagnosis";
+			sourceTree = "<group>";
+		};
+		E2C7C3BB233A1BDB009E4CBD /* Custom Cell */ = {
+			isa = PBXGroup;
+			children = (
+				E2C7C3B7233A1BC5009E4CBD /* CustomCell.swift */,
+				E2C7C3B8233A1BC5009E4CBD /* DisplayCell.xib */,
+			);
+			path = "Custom Cell";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E2AA38B6233267AD00CADF6E /* Know Diagnosis */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E2AA38C9233267AF00CADF6E /* Build configuration list for PBXNativeTarget "Know Diagnosis" */;
+			buildPhases = (
+				DEEAE38137C0CE30DA98D193 /* [CP] Check Pods Manifest.lock */,
+				E2AA38B3233267AD00CADF6E /* Sources */,
+				E2AA38B4233267AD00CADF6E /* Frameworks */,
+				E2AA38B5233267AD00CADF6E /* Resources */,
+				C23997E4997CE3ADAFB26318 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Know Diagnosis";
+			productName = "Know Diagnosis";
+			productReference = E2AA38B7233267AD00CADF6E /* knowDiagnosis.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E2AA38AF233267AD00CADF6E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "Rohan ";
+				TargetAttributes = {
+					E2AA38B6233267AD00CADF6E = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+				};
+			};
+			buildConfigurationList = E2AA38B2233267AD00CADF6E /* Build configuration list for PBXProject "Know Diagnosis" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E2AA38AE233267AD00CADF6E;
+			productRefGroup = E2AA38B8233267AD00CADF6E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E2AA38B6233267AD00CADF6E /* Know Diagnosis */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E2AA38B5233267AD00CADF6E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2AA38C5233267AF00CADF6E /* LaunchScreen.storyboard in Resources */,
+				E2AA38C2233267AF00CADF6E /* Assets.xcassets in Resources */,
+				E2C7C3BA233A1BC5009E4CBD /* DisplayCell.xib in Resources */,
+				E2AA38C0233267AD00CADF6E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		C23997E4997CE3ADAFB26318 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Know Diagnosis/Pods-Know Diagnosis-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Know Diagnosis/Pods-Know Diagnosis-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Know Diagnosis/Pods-Know Diagnosis-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DEEAE38137C0CE30DA98D193 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Know Diagnosis-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E2AA38B3233267AD00CADF6E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E25A7B842340B546006548B6 /* BmiDataModel.swift in Sources */,
+				E2804709233B720B00DFFEFC /* DiabetesDataModel.swift in Sources */,
+				E27AA65F23362C8F00180408 /* ViewController.swift in Sources */,
+				E25A7B862340B55C006548B6 /* BMI.swift in Sources */,
+				E25C656B2354E42D0098762C /* HeartRate.swift in Sources */,
+				E2241DBE23535FF8008A91A3 /* SwipeTableViewController.swift in Sources */,
+				E2477193233E089E0024645F /* Cholestrol.swift in Sources */,
+				E280470B233B746B00DFFEFC /* Diabetes.swift in Sources */,
+				E2DD7FD42338AF2100D577E6 /* Result.swift in Sources */,
+				E27AA6652336546600180408 /* BloodPressureModel.swift in Sources */,
+				E2AA38BB233267AD00CADF6E /* AppDelegate.swift in Sources */,
+				E2477191233E07FC0024645F /* CholestrolDataModel.swift in Sources */,
+				E2DD7FD62338BD0200D577E6 /* HealthDataViewController.swift in Sources */,
+				E2477197233E103B0024645F /* Fever.swift in Sources */,
+				E25C656D2354E7850098762C /* HeartRateDataModel.swift in Sources */,
+				E2C7CDCE234DD84500763840 /* DateClass.swift in Sources */,
+				E2D33B75233B5A42008C67D9 /* Category.swift in Sources */,
+				E27AA661233632A700180408 /* BloodPressure.swift in Sources */,
+				E2CFBF012351D540004EF908 /* FunctionController.swift in Sources */,
+				E2C7C3B9233A1BC5009E4CBD /* CustomCell.swift in Sources */,
+				E2477195233E0FBD0024645F /* FeverDataModel.swift in Sources */,
+				E22D77032338CA8A00357F4C /* TestsData.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E2AA38BE233267AD00CADF6E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E2AA38BF233267AD00CADF6E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E2AA38C3233267AF00CADF6E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E2AA38C4233267AF00CADF6E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E2AA38C7233267AF00CADF6E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E2AA38C8233267AF00CADF6E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E2AA38CA233267AF00CADF6E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2FB236963FAE2A8DF012F590 /* Pods-Know Diagnosis.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2;
+				DEVELOPMENT_TEAM = 55ADG9AWSW;
+				INFOPLIST_FILE = "Know Diagnosis/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Rcompany.Know-Diagnosis";
+				PRODUCT_NAME = knowDiagnosis;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		E2AA38CB233267AF00CADF6E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1BC3294D7C634039E306C626 /* Pods-Know Diagnosis.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2;
+				DEVELOPMENT_TEAM = 55ADG9AWSW;
+				INFOPLIST_FILE = "Know Diagnosis/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Rcompany.Know-Diagnosis";
+				PRODUCT_NAME = knowDiagnosis;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E2AA38B2233267AD00CADF6E /* Build configuration list for PBXProject "Know Diagnosis" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E2AA38C7233267AF00CADF6E /* Debug */,
+				E2AA38C8233267AF00CADF6E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E2AA38C9233267AF00CADF6E /* Build configuration list for PBXNativeTarget "Know Diagnosis" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E2AA38CA233267AF00CADF6E /* Debug */,
+				E2AA38CB233267AF00CADF6E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E2AA38AF233267AD00CADF6E /* Project object */;
+}
